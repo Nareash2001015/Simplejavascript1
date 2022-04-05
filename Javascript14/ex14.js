@@ -7,12 +7,12 @@ function changeImage(e)
     var imgSrc = e.target.alt;
     if(imgSrc == "record")
     {
-        image.setAttribute("src", "D:/Javascript/javascript-and-jquery-book-code/javascript-and-jquery-book-code-0915/c06/images/pause.png");
+        image.setAttribute("src", "images/pause.png");
         image.setAttribute("alt", "pause");
     }
     else
     {
-        image.setAttribute("src", "D:/Javascript/javascript-and-jquery-book-code/javascript-and-jquery-book-code-0915/c06/images/record.png");
+        image.setAttribute("src", "images/record.png");
         image.setAttribute("alt", "record");
     }
 }
