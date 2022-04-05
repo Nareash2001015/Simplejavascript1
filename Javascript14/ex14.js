@@ -1,7 +1,6 @@
 var heading = document.getElementsByTagName("h2")[0];
 var noteName = document.getElementsByClassName("typeField")[0];
 var image = document.getElementById("record");
-console.log(document.getElementsByTagName("div")[0].clientWidth);
 
 function changeImage(e)
 {
