@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body
+{
+    font-family: 'Oswald', 'Futura', sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+label
+{
+    font-size: x-large;
+    float: left;
+}
+
+h2
+{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+div.main
+{
+    background-color: #403c3b; 
+    background-image: url("D:/Javascript/javascript-and-jquery-book-code/javascript-and-jquery-book-code-0915/c06/images/kinglogo.png");
+    background-position: 50% 20px; 
+    background-repeat: no-repeat;
+    margin:auto;
+    width: fit-content;
+    color: white;
+    /* padding: 30px; */
+    padding: 30px 50px 30px 50px;
+    padding-top: 80px;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: rgb(165, 52, 52);
+}
+
+input[type="text"]
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+input.typeField
+{
+    background-color:  #b0b0b0;
+    height: 45px;
+    border-radius: 8px;
+    border-style: none;
+    color: #666;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    font-size: x-large;
+}
+
+img
+{
+    margin: auto;
+    cursor: pointer;
+}
+
