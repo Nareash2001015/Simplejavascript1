@@ -25,7 +25,7 @@ h2
 div.main
 {
     background-color: #403c3b; 
-    background-image: url("D:/Javascript/javascript-and-jquery-book-code/javascript-and-jquery-book-code-0915/c06/images/kinglogo.png");
+    background-image: url("images/kinglogo.png");
     background-position: 50% 20px; 
     background-repeat: no-repeat;
     margin:auto;
